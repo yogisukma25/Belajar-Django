@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daftar Blog</title>
+</head>
+<body>
+    <h1>Daftar Blog</h1>
+    <ul>
+        {% for blog in blogs %}
+            <li>{{ blog.title }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
